@@ -56,8 +56,6 @@ public class ActivityCarros extends AppCompatActivity {
         listaCarros.add(new Carros(13L, "Porshe 2018","Lamborguinhi","3.0 Ultra Veloz",
                 "2018/2019","1.298.983,00","(44)3482-0110",R.drawable.porshe));
 
-        listaCarros.add(new Carros(14L, "Porshe 2018","Lamborguinhi","3.0 Ultra Veloz",
-                "2018/2019","327.983,00","(44)3482-0110",R.drawable.marca_Porshe));
 
 
         AdapterCarros adapter = new AdapterCarros(this, listaCarros);
